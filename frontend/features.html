@@ -1,0 +1,166 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrackYourDOT - Features</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  </head>
+<body class="bg-gradient-to-b from-blue-500 to-blue-700 text-white">
+    <header>
+      <div class="logo">
+        <img alt="Logo" height="50" src="images/logo.png" width="50"/>
+        <h1>TRACKDOT</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="profile">
+        <a href="profile.html">
+          <img alt="Profile Picture" class="profile-pic" height="70" src="images/profile-picture.png" width="70"/>
+        </a>
+      </div>
+    </header>
+
+    <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(27, 62, 179, 1) 0%, rgba(60, 110, 201, 1) 54.5%, rgba(74, 144, 226, 1) 100%);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+    z-index: 10;
+  }
+
+  header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  header .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  header .profile {
+    float: right;
+    margin-right: 20px;
+  }
+
+  header .profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+
+  main img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Adjust the button size */
+  .features-content button {
+    padding: 12px 24px;  /* Increase padding */
+    font-size: 1.125rem;  /* Larger text */
+    width: auto;  /* Adjust width to auto so the button can scale accordingly */
+    max-width: 320px;  /* Set a maximum width */
+    height: 60px;  /* Set a consistent height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between image and icon */
+  }
+
+  /* Image styling inside the buttons */
+  .features-content button img {
+    width: 40px;  /* Adjust size of images */
+    height: 40px;
+  }
+
+  /* Icon styling inside the buttons */
+  .features-content button i {
+    font-size: 1.5rem;  /* Adjust icon size */
+    margin-left: 8px;  /* Space between icon and image */
+  }
+</style>
+
+
+
+  <!-- Features Content -->
+    <div class="features-content flex flex-col md:flex-row items-center justify-between p-32">
+
+      <div class="md:w-2/2 md:pr-6">
+          <h2 class="text-4xl font-bold mb-4">Features</h2>
+          <div class="space-y-0">
+            <a href="track-your-dot.html">
+              <button class="flex items-center bg-white text-black rounded-full px-4 py-5 w-64">
+                  <img src="images/track-your-dot.png" alt="Track your dot image" class="mr-0">
+                  <i class="fas fa-map-marker-alt mr-4"></i> Track Your DOT
+              </button>
+          </a>
+          <a href="add-devices.html">
+              <button class="flex items-center bg-white text-black rounded-full px-4 py-5 w-64">
+                  <img src="images/add-device.png" alt="Add device image" class="mr-0">
+                  <i class="fas fa-cogs mr-4"></i> Add Devices
+              </button>
+          </a>
+          <a href="see-devices.html">
+              <button class="flex items-center bg-white text-black rounded-full px-4 py-5 w-64">
+                  <img src="images/see-devices.png" alt="See devices image" class="mr-0">
+                  <i class="fas fa-eye mr-4"></i> See Devices
+              </button>
+          </a>
+
+        </div>
+
+          <a href="#" class="text-blue-300 mt-4 inline-block">Need help?</a>
+      </div>
+      <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+          <img src="images/purple-location.png" alt="Decorative image of a device" class="mx-auto" width="300" height="300">
+      </div>
+  </div>
+
+</body>
+</html>

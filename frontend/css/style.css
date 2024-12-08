@@ -1,0 +1,298 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Image Styling */
+.background-image {
+    background-image: url('images/background_about_us.png'); /* Ganti dengan path gambar latar belakang Anda */
+    background-size: cover;  /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Menyelaraskan gambar ke tengah */
+    height: 100vh;  /* Membuat background mengisi seluruh tinggi viewport */
+    position: relative;  /* Agar posisi konten tetap berada di atas gambar */
+}
+
+/* Header Styling with Blur Effect */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(30, 42, 71, 0.8);  /* Semi-transparent background */
+    color: white;
+    backdrop-filter: blur(5px); /* Efek blur */
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Contact Us Content Styling */
+.contact-us-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-us-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-us-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.contact-us-content .image-container {
+    margin-top: 50px; /* Spasi antara teks dan gambar */
+}
+
+.contact-us-content .image-container img {
+    width: 80%;  /* Anda dapat menyesuaikan lebar gambar sesuai kebutuhan */
+    max-width: 800px;  /* Gambar tidak akan lebih besar dari 800px */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* About Us Content Styling */
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(244, 244, 244, 0.8);  /* Semi-transparent background for contrast */
+}
+
+.about-us-box {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+/* About Us Box Title and Text */
+.about-us-box h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Features Content */
+.features-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.features-content h2 {
+    font-size: 32px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.features-content .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.feature-btn {
+    display: flex;
+    align-items: center;
+    background-color: #1E2A47;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.feature-btn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.feature-btn:hover {
+    background-color: #3b4f75;
+}
+
+.need-help {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* New styles for Track Your DOT Page */
+.track-your-dot-content {
+    padding: 50px;
+    text-align: left;
+}
+
+.track-your-dot-content h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.choose-device-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.choose-device-box h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.device-option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.device-option img {
+    width: 30px;
+    height: 30px;
+}
+
+.device-option p {
+    font-size: 18px;
+    color: #555;
+}
+
+.locate-all-btn {
+    background-color: #1E2A47;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.locate-all-btn:hover {
+    background-color: #3b4f75;
+}
+
+.device-option {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .device-option img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .device-option:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .device-option span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+/* Optional Footer Blur Effect */
+footer {
+    background-color: rgba(30, 42, 71, 0.8);
+    padding: 30px;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);  /* Blur effect */
+    margin-top: 50px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-us-content,
+    .about-us-container,
+    .features-content,
+    .track-your-dot-content {
+        padding: 20px;
+    }
+
+    .about-us-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .feature-btn {
+        width: 100%;
+    }
+
+    .device-option {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .locate-all-btn {
+        width: 100%;
+    }
+}
+

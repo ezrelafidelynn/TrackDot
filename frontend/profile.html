@@ -1,0 +1,188 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>TrackDot Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-blue-500 to-blue-700 text-white">
+<header>
+      <div class="logo">
+        <img alt="Logo" height="50" src="images/logo.png" width="50"/>
+        <h1>TRACKDOT</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="profile">
+        <a href="profile.html">
+          <img alt="Profile Picture" class="profile-pic" height="70" src="images/profile-picture.png" width="70"/>
+        </a>
+      </div>
+    </header>
+
+    <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(27, 62, 179, 1) 0%, rgba(60, 110, 201, 1) 54.5%, rgba(74, 144, 226, 1) 100%);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+    z-index: 10;
+  }
+
+  header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  header .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  header .profile {
+    float: right;
+    margin-right: 20px;
+  }
+
+  header .profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+
+  main img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Adjust the button size */
+  .features-content button {
+    padding: 12px 24px;  /* Increase padding */
+    font-size: 1.125rem;  /* Larger text */
+    width: auto;  /* Adjust width to auto so the button can scale accordingly */
+    max-width: 320px;  /* Set a maximum width */
+    height: 60px;  /* Set a consistent height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between image and icon */
+  }
+
+  /* Image styling inside the buttons */
+  .features-content button img {
+    width: 40px;  /* Adjust size of images */
+    height: 40px;
+  }
+
+  /* Icon styling inside the buttons */
+  .features-content button i {
+    font-size: 1.5rem;  /* Adjust icon size */
+    margin-left: 8px;  /* Space between icon and image */
+  }
+</style>
+<main class="flex flex-col lg:flex-row justify-center items-start lg:items-center p-8 space-y-8 lg:space-y-0 lg:space-x-8">
+    <div class="bg-white text-black p-6 rounded-lg shadow-lg w-full lg:w-1/2">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-xl font-bold">Saito Usikitachi</h2>
+            <i class="fas fa-pen"></i>
+        </div>
+        <p class="mb-4">
+            saitozymate@gmail.com
+            <a class="text-blue-500" href="#">Verify</a>
+        </p>
+        <form class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium" for="mobile">Mobile Phone</label>
+                <input class="w-full p-2 border rounded bg-gray-200" id="mobile" type="text" value="+62 8732746900"/>
+            </div>
+            <div>
+                <label class="block text-sm font-medium" for="address">Address</label>
+                <input class="w-full p-2 border rounded bg-gray-200" id="address" type="text" value="Jalan Sisimangaraja No. 17"/>
+            </div>
+            <div>
+                <label class="block text-sm font-medium" for="username">Username</label>
+                <input class="w-full p-2 border rounded bg-gray-200" id="username" type="text" value="saito.usikitaci"/>
+            </div>
+            <div>
+                <label class="block text-sm font-medium" for="password">Password</label>
+                <input class="w-full p-2 border rounded bg-gray-200" id="password" type="password"/>
+            </div>
+            <div>
+                <label class="block text-sm font-medium" for="new-password">New Password</label>
+                <input class="w-full p-2 border rounded bg-gray-200" id="new-password" type="password"/>
+            </div>
+            <button class="w-full p-2 bg-blue-600 text-white rounded" type="submit">SAVE</button>
+        </form>
+    </div>
+    <div class="flex flex-col items-center space-y-4">
+        <h2 class="text-xl font-bold">Profile</h2>
+        <img alt="Profile picture" class="rounded-full" height="100" src="images/pfp.png" width="100"/>
+        <a class="text-blue-500" href="#">Change</a>
+    </div>
+</main>
+<footer class="bg-blue-800 p-16 text-center lg:text-left">
+    <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-0 lg:space-y-0">
+        <div class="lg:w-1/2">
+            <h3 class="text-lg font-bold mb-2">About Us</h3>
+            <p>TrackDot is an IoT device that's connected to our personal website. Through this device and website, we hope to can decrease people to lose their personal things. TrackDot is the new location device that you need.</p>
+        </div>
+        <div class="lg:w-1/2 lg:text-right">
+            <h3 class="text-lg font-bold mb-2">Contact Us</h3>
+            <p>Instagram: @trackdot_official</p>
+            <p>Whatsapp: +62 xxxx xxxx xxx</p>
+            <p>Website: trackdot.com</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
