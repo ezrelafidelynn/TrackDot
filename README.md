@@ -56,10 +56,10 @@ Watch the demo:
 ## 📸 Screenshots
 
 ### 🗺️ Device Tracking View  
-![Tracking Screenshot](https://chat.openai.com/share/file-BBJ2PamaGGSaMZQ3aiUKvA)
+![Tracking Screenshot]([https://chat.openai.com/share/file-BBJ2PamaGGSaMZQ3aiUKvA](https://drive.google.com/file/d/11oOj8pgtIOcZdaoSlqZzfMpB5KJ0sAct/view?usp=sharing))
 
 ### 🔐 Login Page  
-![Login Screenshot](https://chat.openai.com/share/file-TtS7993uCU5KmJX7FYcYg5)
+![Login Screenshot](https://drive.google.com/file/d/1mD3VPj6nG1HDVjUsU7pY1DoAGKUJtCSw/view?usp=sharing)
 
 ---
 
