@@ -56,10 +56,10 @@ Watch the demo:
 ## 📸 Screenshots
 
 ### 🗺️ Device Tracking View  
-![Tracking Screenshot](https://drive.google.com/file/d/11oOj8pgtIOcZdaoSlqZzfMpB5KJ0sAct/view?usp=sharing)
+[Tracking Screenshot](https://drive.google.com/file/d/11oOj8pgtIOcZdaoSlqZzfMpB5KJ0sAct/view?usp=sharing)
 
 ### 🔐 Login Page  
-![Login Screenshot](https://drive.google.com/file/d/1mD3VPj6nG1HDVjUsU7pY1DoAGKUJtCSw/view?usp=sharing)
+[Login Screenshot](https://drive.google.com/file/d/1mD3VPj6nG1HDVjUsU7pY1DoAGKUJtCSw/view?usp=sharing)
 
 ---
 
